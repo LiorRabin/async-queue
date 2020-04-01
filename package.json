@@ -1,8 +1,14 @@
 {
   "name": "@liorrabin/async-queue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AsyncQueue module used for running asynchronous tasks in series",
-  "keywords": ["nodejs", "node", "async", "queue", "async-queue"],
+  "keywords": [
+    "nodejs",
+    "node",
+    "async",
+    "queue",
+    "async-queue"
+  ],
   "homepage": "https://github.com/LiorRabin/async-queue#readme",
   "main": "index.js",
   "scripts": {
@@ -18,6 +24,8 @@
     "standard": "^14.3.3"
   },
   "standard": {
-    "env": [ "mocha" ]
+    "env": [
+      "mocha"
+    ]
   }
 }

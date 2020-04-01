@@ -1,1 +1,1 @@
-require('./src/AsyncQueue')
+module.exports = require('./src/AsyncQueue')
