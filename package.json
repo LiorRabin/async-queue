@@ -1,6 +1,6 @@
 {
   "name": "@liorrabin/async-queue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AsyncQueue module used for running asynchronous tasks in series",
   "keywords": [
     "nodejs",
@@ -15,7 +15,7 @@
     "lint": "node_modules/.bin/standard",
     "lint-fix": "node_modules/.bin/standard --fix",
     "test": "node_modules/.bin/mocha -timeout 5000",
-    "publish": "npm publish --access public"
+    "release": "npm publish --access public"
   },
   "author": "LiorRabin",
   "license": "MIT",
