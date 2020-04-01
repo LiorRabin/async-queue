@@ -17,6 +17,7 @@ npm test
 
 ```
 const AsyncQueue = require('@liorrabin/async-queue')
+
 const queue = new AsyncQueue(fn) // create new queue with `fn` as the function to run on each task
 queue.add('param1', 'param2')    // add fn('param1', 'param2') to queue and start running immediately
 queue.isRunning()                // check if queue is currently running
@@ -25,4 +26,4 @@ queue.all()                      // get all tasks in the queue
 ```
 
 ## License
-[MIT][LICENSE]
+[MIT](LICENSE)
